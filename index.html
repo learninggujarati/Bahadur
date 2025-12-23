@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="gu">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gujarati Trader™ | Premium Stock Market Community</title>
+<title>Trade™ With Prateek | Bank Nifty Premium Community</title>
 
-<!-- ===== META PIXEL START ===== -->
-<!-- Meta Pixel Code -->
+<!-- ===== META PIXEL ===== -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -16,140 +15,171 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1827946301928338');
-fbq('track', 'PageView');
+fbq('init','1827946301928338');
+fbq('track','PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1827946301928338&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1827946301928338&ev=PageView&noscript=1"/>
+</noscript>
 <!-- ===== META PIXEL END ===== -->
 
 <style>
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:'Poppins',sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
 }
 
 body{
-  background:#050505;
-  color:#ffffff;
+background:#050505;
+color:#ffffff;
 }
 
-/* PAGE LAYOUT */
 .page{
-  min-height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  padding:40px 18px 50px;
-  text-align:center;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+padding:40px 18px;
+text-align:center;
 }
 
-/* LOGO CIRCLE */
+/* LOGO */
 .logo-wrap{
-  width:120px;
-  height:120px;
-  margin:0 auto;
-  border-radius:50%;
-  padding:4px;
-  background:linear-gradient(135deg,#ffd700,#a67c00);
-  box-shadow:0 0 35px rgba(255,215,0,.45);
-}
-.logo{
-  width:100%;
-  height:100%;
-  border-radius:50%;
-  background:#000;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-.logo img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  border-radius:50%;
+width:130px;
+height:130px;
+margin:0 auto;
+border-radius:50%;
+padding:4px;
+background:linear-gradient(135deg,#ffd700,#a67c00);
+box-shadow:0 0 45px rgba(255,215,0,.55);
 }
 
-/* BRAND NAME */
+.logo{
+width:100%;
+height:100%;
+border-radius:50%;
+overflow:hidden;
+background:#000;
+}
+
+.logo img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+/* BRAND */
 .brand{
-  margin-top:22px;
-  font-size:30px;
-  font-weight:900;
-  letter-spacing:.5px;
-  background:linear-gradient(90deg,#ffd700,#ffb700,#ffd700);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+margin-top:26px;
+font-size:32px;
+font-weight:900;
+letter-spacing:.6px;
+background:linear-gradient(90deg,#ffd700,#ffb700,#ffd700);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.tagline{
+margin-top:8px;
+font-size:14px;
+letter-spacing:2px;
+opacity:.7;
 }
 
 /* PRIMARY TEXT */
 .primary{
-  margin-top:18px;
-  font-size:16px;
-  line-height:1.7;
-  opacity:.92;
-  max-width:420px;
-  margin-left:auto;
-  margin-right:auto;
+margin:24px auto 14px;
+max-width:440px;
+font-size:16px;
+line-height:1.75;
+opacity:.92;
+}
+
+/* CTA UNDER TEXT */
+.cta{
+margin:16px 0 24px;
+display:flex;
+justify-content:center;
+}
+
+/* NEON BUTTON */
+.join-btn{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+width:100%;
+max-width:290px;
+padding:16px;
+border:none;
+border-radius:14px;
+background:linear-gradient(90deg,#ff0000,#0066ff,#ff0000);
+background-size:200% 100%;
+color:#fff;
+font-size:17px;
+font-weight:800;
+letter-spacing:.5px;
+cursor:pointer;
+box-shadow:
+0 0 20px rgba(255,0,0,.45),
+0 0 30px rgba(0,102,255,.45);
+animation:zomatoGlow 2.2s ease-in-out infinite;
+}
+
+.join-btn img{
+width:22px;
+height:22px;
+}
+
+.join-btn:active{
+transform:scale(.96);
+}
+
+/* ZOMATO STYLE SOFT PULSE */
+@keyframes zomatoGlow{
+0%{
+background-position:0% 50%;
+box-shadow:
+0 0 18px rgba(255,0,0,.35),
+0 0 22px rgba(0,102,255,.35);
+}
+50%{
+background-position:100% 50%;
+box-shadow:
+0 0 28px rgba(255,0,0,.65),
+0 0 34px rgba(0,102,255,.65);
+}
+100%{
+background-position:0% 50%;
+box-shadow:
+0 0 18px rgba(255,0,0,.35),
+0 0 22px rgba(0,102,255,.35);
+}
 }
 
 /* DIVIDER */
 .divider{
-  width:80px;
-  height:2px;
-  margin:32px auto;
-  background:linear-gradient(90deg,#ff0000,#0066ff);
-  border-radius:10px;
+width:90px;
+height:2px;
+margin:26px auto;
+background:linear-gradient(90deg,#ff0000,#0066ff);
+border-radius:10px;
 }
 
-/* VALUE TEXT */
+/* VALUES */
 .values{
-  font-size:15px;
-  line-height:1.7;
-  opacity:.9;
+font-size:15px;
+line-height:1.8;
+opacity:.9;
 }
 
-/* CTA */
-.cta{
-  margin-top:40px;
-  display:flex;
-  justify-content:center;
-}
-
-.join-btn{
-  width:100%;
-  max-width:360px;
-  padding:20px;
-  border-radius:16px;
-  background:linear-gradient(90deg,#ff0000,#0066ff);
-  color:#fff;
-  font-size:20px;
-  font-weight:900;
-  text-decoration:none;
-  box-shadow:
-    0 20px 40px rgba(0,0,0,.8),
-    0 0 25px rgba(255,0,0,.3);
-  animation:premiumPulse 1.8s infinite;
-}
-
-.join-btn:active{
-  transform:scale(.96);
-}
-
-@keyframes premiumPulse{
-  0%{transform:scale(1)}
-  50%{transform:scale(1.04)}
-  100%{transform:scale(1)}
-}
-
-/* FOOTER */
 .footer{
-  margin-top:30px;
-  font-size:12px;
-  opacity:.55;
+margin-top:30px;
+font-size:12px;
+opacity:.55;
 }
 </style>
 </head>
@@ -158,56 +188,75 @@ body{
 
 <div class="page">
 
-  <!-- LOGO -->
-  <div class="logo-wrap">
-    <div class="logo">
-      <img src="https://uploads.onecompiler.io/4479c7wrg/448f8y9cc/WhatsApp%20Image%202025-12-23%20at%2023.00.31.jpeg" alt="Trade With Prateek Logo">
-    </div>
-  </div>
+<!-- LOGO -->
+<div class="logo-wrap">
+<div class="logo">
+<img src="https://uploads.onecompiler.io/4479c7wrg/448f8y9cc/WhatsApp%20Image%202025-12-23%20at%2023.00.31.jpeg">
+</div>
+</div>
 
-  <!-- BRAND -->
-  <div class="brand">Trade™ With Prateek</div>
+<!-- BRAND -->
+<div class="brand">Trade™ With Prateek</div>
+<div class="tagline">BANK NIFTY KING</div>
 
-  <!-- PRIMARY TEXT -->
-  <div class="primary">
-    Ye koi normal tips channel nahi hai.<br><br>
-    PRATEEK SAHANI BANK NIFTY KING un logo ke liye hai  
-    jo stock market ko <b>seriously, logically  
-    aur discipline ke saath</b> approach karte hain.
-  </div>
+<!-- TEXT -->
+<div class="primary">
+<b>This is not a free tips channel.</b><br><br>
+Built for traders who believe in
+<b>discipline, logic & capital protection</b> —
+not gambling or fake promises.
+</div>
 
-  <div class="divider"></div>
+<!-- JOIN BUTTON (EXACT UNDER TEXT) -->
+<div class="cta">
+<button class="join-btn" id="joinBtn" onclick="joinTelegram()">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg">
+JOIN NOW
+</button>
+</div>
 
-  <div class="values">
-    ❌ Fake promises nahi<br>
-    ❌ Over-trading nahi<br>
-    ❌ Noise nahi<br><br>
-    ✅ Clear market thinking<br>
-    ✅ Risk control first<br>
-        TRADE WITH BANK NIFTY KING
-  </div>
+<div class="divider"></div>
 
-  <!-- CTA -->
-  <div class="cta">
-    <a href="https://t.me/+BEySPrqGg3k0ZDk9"
-       target="_blank"
-       class="join-btn"
-       onclick="trackJoin()">
-       JOIN OUR TELEGRAM
-    </a>
-  </div>
+<!-- VALUES -->
+<div class="values">
+❌ No fake promises<br>
+❌ No over-trading<br>
+❌ No noise<br><br>
+✅ Clean price action<br>
+✅ Risk control first<br>
+✅ Professional Bank Nifty setup
+</div>
 
-  <div class="footer">
-    Educational Purpose Only | Market Risk Applies
-  </div>
+<div class="footer">
+Educational Purpose Only • Market Risk Applies
+</div>
 
 </div>
 
+<!-- SAFE TRACKING -->
 <script>
-function trackJoin(){
-  if(typeof fbq === 'function'){
-    fbq('track','Subscribe');
-  }
+let alreadyClicked = false;
+
+function joinTelegram(){
+if(alreadyClicked) return;
+alreadyClicked = true;
+
+const btn = document.getElementById('joinBtn');
+btn.style.opacity = '0.7';
+btn.innerText = 'Redirecting...';
+
+const eventId = 'tg_' + Date.now();
+
+if(typeof fbq === 'function'){
+fbq('track','Subscribe',{
+content_name:'Telegram Join',
+eventID:eventId
+});
+}
+
+setTimeout(function(){
+window.location.replace("https://t.me/+BEySPrqGg3k0ZDk9");
+},250);
 }
 </script>
 
