@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trade™ With Prateek | Bank Nifty Premium Community</title>
+<title>Gujarati Trader</title>
 
-<!-- ===== META PIXEL ===== -->
+<!-- ================= META PIXEL (NEW ONLY) ================= -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -15,249 +15,173 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','1827946301928338');
-fbq('track','PageView');
+  
+fbq('init', '1827946301928338');
+fbq('track', 'PageView');
+  
 </script>
 <noscript>
 <img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1827946301928338&ev=PageView&noscript=1"/>
-</noscript>
-<!-- ===== META PIXEL END ===== -->
+src="https://www.facebook.com/tr?id=1827946301928338&ev=PageView&noscript=1"
+/></noscript>
+<!-- ================= END META PIXEL ================= -->
 
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
-
+*{box-sizing:border-box}
 body{
-background:#050505;
-color:#ffffff;
+ margin:0;
+ font-family:Segoe UI,Arial,sans-serif;
+ background:linear-gradient(180deg,#eef2ff,#f8fafc);
+ color:#111;
+ text-align:center;
 }
 
-.page{
-min-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-padding:40px 18px;
-text-align:center;
+/* MAIN CARD */
+.container{
+ max-width:420px;
+ margin:28px auto;
+ background:#ffffff;
+ border-radius:22px;
+ padding:30px 18px 40px;
+ box-shadow:0 25px 60px rgba(0,0,0,.12);
 }
 
 /* LOGO */
-.logo-wrap{
-width:130px;
-height:130px;
-margin:0 auto;
-border-radius:50%;
-padding:4px;
-background:linear-gradient(135deg,#ffd700,#a67c00);
-box-shadow:0 0 45px rgba(255,215,0,.55);
-}
-
 .logo{
-width:100%;
-height:100%;
-border-radius:50%;
-overflow:hidden;
-background:#000;
+ width:140px;
+ height:140px;
+ border-radius:50%;
+ margin:10px auto 14px;
+ box-shadow:0 12px 28px rgba(0,0,0,.25);
+ overflow:hidden;
+ border:4px solid #e5e7eb;
 }
-
 .logo img{
-width:100%;
-height:100%;
-object-fit:cover;
+ width:100%;
+ height:100%;
+ object-fit:cover;
 }
 
-/* BRAND */
-.brand{
-margin-top:26px;
-font-size:32px;
-font-weight:900;
-letter-spacing:.6px;
-background:linear-gradient(90deg,#ffd700,#ffb700,#ffd700);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
+/* TITLE */
+h1{
+ font-size:30px;
+ font-weight:900;
+ margin:10px 0 6px;
+ letter-spacing:.6px;
+}
+.subs{
+ font-size:14px;
+ color:#6b7280;
+ margin-bottom:18px;
 }
 
-.tagline{
-margin-top:8px;
-font-size:14px;
-letter-spacing:2px;
-opacity:.7;
+/* INFO */
+.info{
+ font-size:15px;
+ line-height:1.8;
+ color:#374151;
+ margin:10px 0 26px;
+}
+.info div{
+ margin:7px 0;
 }
 
-/* PRIMARY TEXT */
-.primary{
-margin:24px auto 14px;
-max-width:440px;
-font-size:16px;
-line-height:1.75;
-opacity:.92;
-}
-
-/* CTA UNDER TEXT */
-.cta{
-margin:16px 0 24px;
-display:flex;
-justify-content:center;
-}
-
-/* NEON BUTTON */
+/* BUTTON */
 .join-btn{
-display:flex;
-align-items:center;
-justify-content:center;
-gap:10px;
-width:100%;
-max-width:290px;
-padding:16px;
-border:none;
-border-radius:14px;
-background:linear-gradient(90deg,#ff0000,#0066ff,#ff0000);
-background-size:200% 100%;
-color:#fff;
-font-size:17px;
-font-weight:800;
-letter-spacing:.5px;
-cursor:pointer;
-box-shadow:
-0 0 20px rgba(255,0,0,.45),
-0 0 30px rgba(0,102,255,.45);
-animation:zomatoGlow 2.2s ease-in-out infinite;
+ display:block;
+ width:100%;
+ max-width:360px;
+ margin:0 auto 20px;
+ padding:17px;
+ font-size:18px;
+ font-weight:900;
+ color:#fff;
+ text-decoration:none;
+ border-radius:14px;
+ background:linear-gradient(90deg,#2563eb,#4f46e5);
+ box-shadow:0 14px 32px rgba(79,70,229,.45);
+ transition:.25s ease;
+}
+.join-btn:hover{
+ transform:translateY(-2px);
+ box-shadow:0 18px 38px rgba(79,70,229,.55);
 }
 
-.join-btn img{
-width:22px;
-height:22px;
+/* TRUST */
+.stars{
+ font-size:20px;
+ color:#f59e0b;
+ margin-bottom:8px;
+}
+.trust{
+ font-size:13px;
+ color:#6b7280;
+ margin-bottom:18px;
 }
 
-.join-btn:active{
-transform:scale(.96);
-}
-
-/* ZOMATO STYLE SOFT PULSE */
-@keyframes zomatoGlow{
-0%{
-background-position:0% 50%;
-box-shadow:
-0 0 18px rgba(255,0,0,.35),
-0 0 22px rgba(0,102,255,.35);
-}
-50%{
-background-position:100% 50%;
-box-shadow:
-0 0 28px rgba(255,0,0,.65),
-0 0 34px rgba(0,102,255,.65);
-}
-100%{
-background-position:0% 50%;
-box-shadow:
-0 0 18px rgba(255,0,0,.35),
-0 0 22px rgba(0,102,255,.35);
-}
-}
-
-/* DIVIDER */
-.divider{
-width:90px;
-height:2px;
-margin:26px auto;
-background:linear-gradient(90deg,#ff0000,#0066ff);
-border-radius:10px;
-}
-
-/* VALUES */
-.values{
-font-size:15px;
-line-height:1.8;
-opacity:.9;
-}
-
+/* FOOTER */
 .footer{
-margin-top:30px;
-font-size:12px;
-opacity:.55;
+ font-size:12px;
+ color:#9ca3af;
+ line-height:1.6;
 }
 </style>
 </head>
 
 <body>
 
-<div class="page">
+<div class="container">
 
 <!-- LOGO -->
-<div class="logo-wrap">
 <div class="logo">
-<img src="https://uploads.onecompiler.io/4479c7wrg/448f8y9cc/WhatsApp%20Image%202025-12-23%20at%2023.00.31.jpeg">
-</div>
-</div>
-
-<!-- BRAND -->
-<div class="brand">Trade™ With Prateek</div>
-<div class="tagline">BANK NIFTY KING</div>
-
-<!-- TEXT -->
-<div class="primary">
-<b>This is not a free tips channel.</b><br><br>
-Built for traders who believe in
-<b>discipline, logic & capital protection</b> —
-not gambling or fake promises.
+ <img src="https://uploads.onecompiler.io/445e5df86/445tc7ue3/330.png" alt="Gujarati Trader">
 </div>
 
-<!-- JOIN BUTTON (EXACT UNDER TEXT) -->
-<div class="cta">
-<button class="join-btn" id="joinBtn" onclick="joinTelegram()">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg">
-JOIN NOW
-</button>
+<!-- TITLE -->
+<h1>GUJARATI TRADER</h1>
+<div class="subs">20,000+ learners • Trusted community</div>
+
+<!-- INFO -->
+<div class="info">
+ <div>📊 <b>Market Education & Chart Reading</b></div>
+ <div>📈 Nifty • BankNifty • Stock Analysis</div>
+ <div>🛡️ Risk Management & Discipline</div>
+ <div>🎯 Learn with clarity, not false promises</div>
 </div>
 
-<div class="divider"></div>
+<!-- BUTTON -->
+<a class="join-btn" id="joinBtn"
+ href="https://t.me/+07ZbJhp2ef43NDI1"
+ target="_blank">
+JOIN TELEGRAM CHANNEL
+</a>
 
-<!-- VALUES -->
-<div class="values">
-❌ No fake promises<br>
-❌ No over-trading<br>
-❌ No noise<br><br>
-✅ Clean price action<br>
-✅ Risk control first<br>
-✅ Professional Bank Nifty setup
-</div>
+<!-- TRUST -->
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<div class="trust">Rated highly by community learners</div>
 
+<!-- FOOTER -->
 <div class="footer">
-Educational Purpose Only • Market Risk Applies
+Educational purpose only. No tips, no guarantees.<br>
+Market participation involves risk.
 </div>
 
 </div>
 
-<!-- SAFE TRACKING -->
 <script>
-let alreadyClicked = false;
-
-function joinTelegram(){
-if(alreadyClicked) return;
-alreadyClicked = true;
-
-const btn = document.getElementById('joinBtn');
-btn.style.opacity = '0.7';
-btn.innerText = 'Redirecting...';
-
-const eventId = 'tg_' + Date.now();
-
-if(typeof fbq === 'function'){
-fbq('track','Subscribe',{
-content_name:'Telegram Join',
-eventID:eventId
+/* TELEGRAM CLICK TRACKING */
+document.addEventListener("DOMContentLoaded", function () {
+  const joinBtn = document.getElementById("joinBtn");
+  if (joinBtn) {
+    joinBtn.addEventListener("click", function () {
+      if (typeof fbq === 'function') {
+        fbq('trackCustom','JoinTelegram');
+        fbq('track','Lead');
+      }
+      this.style.pointerEvents = "none";
+    });
+  }
 });
-}
-
-setTimeout(function(){
-window.location.replace("https://t.me/+BEySPrqGg3k0ZDk9");
-},250);
-}
 </script>
 
 </body>
